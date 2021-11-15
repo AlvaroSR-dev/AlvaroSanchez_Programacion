@@ -1,4 +1,4 @@
-public class T4_Array15Posiciones {
+public class Ejercicio05 {
     public static void main(String[] args) {
 
         int[] num = new int[15];
