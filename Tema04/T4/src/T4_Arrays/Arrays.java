@@ -1,3 +1,5 @@
+package T4_Arrays;
+
 public class Arrays {
     public static void main(String[] args) {
         // array de números

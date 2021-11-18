@@ -1,3 +1,5 @@
+package T4_Arrays;
+
 public class Ejercicio04 {
     public static void main(String[] args) {
         int numero[] = new int[20];
