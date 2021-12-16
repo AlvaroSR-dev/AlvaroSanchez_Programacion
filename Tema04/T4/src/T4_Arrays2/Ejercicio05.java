@@ -1,5 +1,3 @@
-package T4_Arrays2;
-
 import java.util.Scanner;
 
 public class Ejercicio05 {
