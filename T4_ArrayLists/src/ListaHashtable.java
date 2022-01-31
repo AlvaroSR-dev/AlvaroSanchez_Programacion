@@ -1,3 +1,4 @@
+import java.util.Enumeration;
 import java.util.Hashtable;
 
 public class ListaHashtable {
@@ -24,5 +25,8 @@ public class ListaHashtable {
 
         lista.remove("1");
         System.out.println(lista.get("1"));
+
+        // imprimir objetos
+        Enumeration<Object> listaClaves = lista.keys();
     }
 }

@@ -1,5 +1,6 @@
 package BaseHashtable;
 
+import java.util.Enumeration;
 import java.util.Hashtable;
 
 public class Ejercicio01 {
@@ -11,5 +12,12 @@ public class Ejercicio01 {
         listaCoches.put("3", new Object[]{"Honda", "Civic Type R", "8723 HXD", 210});
         listaCoches.put("4", new Object[]{"Mazda", "6", "3563 JKL", 150});
         listaCoches.put("5", new Object[]{"Renault", "Megane", "3245 QOP", 120});
+
+        Enumeration<String> listaClaves = listaCoches.keys();
+        while (listaClaves.hasMoreElements()){
+            Object clave = listaClaves.nextElement();
+            Object elemento = listaCoches.get(clave);
+            System.out.println(elemento);
+        }
     }
 }
