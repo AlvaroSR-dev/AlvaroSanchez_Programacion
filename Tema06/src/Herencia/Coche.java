@@ -17,8 +17,6 @@ public class Coche {
         this.velocidad += velocidad;
     }
 
-    public void mostrarDatos()
-
     public String getMatricula() {
         return matricula;
     }
