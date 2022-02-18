@@ -2,9 +2,7 @@ package Centralita;
 
 public class Entrada {
     public static void main(String[] args) {
-        Centralita centralita = new Centralita();
-
-        centralita.mostrarLlamadas();
-        centralita.mostrarCostes();
+        Llamada llamadaNacional = new LlamadaNacional(1234, 5678, 10, 1);
+        llamadaNacional.mostrarDatos();
+        }
     }
-}

@@ -10,10 +10,13 @@ public abstract class Llamada {
         this.nOrigen = nOrigen;
         this.nDestino = nDestino;
         this.duracion = duracion;
+        calcularCoste();
     }
 
+    protected abstract void calcularCoste();
+
     public void mostrarDatos(){
-        System.out.print(nOrigen + "\n" + nDestino + "\n" + duracion + "\n" + coste + "\n");
+        System.out.print("Origen: " + nOrigen + "\n Destino: " + nDestino + "\n Duracion: " + duracion + "\n Coste: " + coste + "\n");
     }
 
     public int getnOrigen() {
