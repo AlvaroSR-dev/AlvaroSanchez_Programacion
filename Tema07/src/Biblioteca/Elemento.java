@@ -2,18 +2,24 @@ package Biblioteca;
 
 public abstract class Elemento {
     protected int id;
-    protected String seccion, titulo, aEdicion;
+    protected String seccion, titulo;
     protected boolean estado;
 
     public Elemento() {
     }
 
-    public Elemento(int id, String seccion, String titulo, String aEdicion, boolean estado) {
+    public Elemento(int id, String seccion, String titulo, boolean estado) {
         this.id = id;
         this.seccion = seccion;
         this.titulo = titulo;
-        this.aEdicion = aEdicion;
         this.estado = estado;
+    }
+
+    public void mostrarDatos(){
+        System.out.println(id);
+        System.out.println(seccion);
+        System.out.println(titulo);
+        System.out.println(estado);
     }
 
     public int getId() {
@@ -38,14 +44,6 @@ public abstract class Elemento {
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
-    }
-
-    public String getaEdicion() {
-        return aEdicion;
-    }
-
-    public void setaEdicion(String aEdicion) {
-        this.aEdicion = aEdicion;
     }
 
     public boolean isEstado() {

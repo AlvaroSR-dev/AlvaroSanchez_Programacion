@@ -7,19 +7,21 @@ public class Socio extends Persona{
     protected ArrayList prestamos;
 
     public Socio() {
-        prestamos = new ArrayList();
     }
 
     public Socio(String nombre, String apellido, String dni, int nSocio, ArrayList prestamos) {
         super(nombre, apellido, dni);
         this.nSocio = nSocio; /* falta generar el numero automáticamente */
-        this.prestamos = prestamos;
+        this.prestamos = new ArrayList();
     }
 
     @Override
     public void mostrarDatos() {
         super.mostrarDatos();
         System.out.println("ID Socio: "+nSocio);
+        for (Object item:prestamos) {
+
+        }
     }
 
     public int getnSocio() {

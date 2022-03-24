@@ -8,8 +8,4 @@ public class Entrenador extends Persona{
         this.vocacion = vocacion;
     }
 
-    @Override
-
-
-    @Override
 }

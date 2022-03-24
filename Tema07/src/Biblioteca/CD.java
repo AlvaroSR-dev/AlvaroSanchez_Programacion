@@ -5,9 +5,4 @@ public final class CD extends Elemento{
 
     public CD() {
     }
-
-    public CD(int id, String seccion, String titulo, String aEdicion, boolean estado, Biblioteca.TipoCD tipo) {
-        super(id, seccion, titulo, aEdicion, estado);
-        this.tipo = tipo;
-    }
 }

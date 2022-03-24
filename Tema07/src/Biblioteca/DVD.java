@@ -8,7 +8,6 @@ public final class DVD extends Elemento{
     }
 
     public DVD(int id, String seccion, String titulo, String aEdicion, boolean estado, String director, String actores, TipoDVD tipo) {
-        super(id, seccion, titulo, aEdicion, estado);
         this.director = director;
         this.actores = actores;
         this.tipo = tipo;

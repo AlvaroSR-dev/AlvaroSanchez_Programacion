@@ -9,7 +9,6 @@ public final class Autonomo extends Trabajador{
     }
 
     public Autonomo(String dni, String nombre, String apellido, double sueldo, String departamento, double cuota, String factura) {
-        super(dni, nombre, apellido, sueldo, departamento);
         this.cuota = cuota;
         this.factura = factura;
     }
@@ -43,6 +42,6 @@ public final class Autonomo extends Trabajador{
     }
 
     public void realizarFactura(){
-        this.factura = String.format("Factura realizada por un importe de %.2")
+        this.factura = String.format("Factura realizada por un importe de %.2");
     }
 }
