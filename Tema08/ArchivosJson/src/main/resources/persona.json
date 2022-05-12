@@ -1,0 +1,32 @@
+{
+  "nombre": "Álvaro",
+  "apellidos": "Sánchez Ruiz",
+  "edad": 19,
+  "hobbies": [
+    "programacion a papel",
+    "descanso"
+  ],
+  "conocimientos": [
+    {
+      "concepto": "web",
+      "experiencia": 2,
+      "detalle": [
+        "html",
+        "css",
+        "js",
+        "mysql",
+        "php"
+      ]
+    },
+    {
+      "concepto": "programacion",
+      "experiencia": 1,
+      "detalle": [
+        "java",
+        "js",
+        "powershell",
+        "python"
+      ]
+    }
+  ]
+}
